@@ -1,0 +1,40 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container
+{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    align-items: center;
+
+}
+button
+{
+    padding:2em 0;
+    margin-bottom:2em;
+    width:20%;
+}
+table#completed, table#incompleted
+{
+    display: none;
+}
+th
+{
+    padding:1em 6em;
+    background-color: black;
+    color:white;
+}
+td
+{
+    padding:.5em 0;
+}
+table
+{
+    border-collapse: collapse;
+}

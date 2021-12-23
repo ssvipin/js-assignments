@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo-list-actual-api</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <div class="container">
+        <button onclick="iscompleted()">click here to check completed todos</button>
+        <button onclick = "notcompleted()">click here to check incompleted todos</button>
+        <div>
+            <table id="completed" border="1">
+                <tr>
+                    <th>UserId</th>
+                    <th>Id</th>
+                    <th>Title</th>
+                    <th>Completed</th>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <table id="incompleted"  border = "1">
+                <tr>
+                    <th>UserId</th>
+                    <th>Id</th>
+                    <th>Title</th>
+                    <th>inCompleted</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src = "script.js"></script> 
+</body>
+
+</html>
